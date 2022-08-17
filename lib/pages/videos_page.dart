@@ -1,20 +1,13 @@
 import 'package:chewie_tutorial/chewie_list_item_dart_page.dart'; //importando o proprio item de item mastigavel
 import 'package:flutter/material.dart';
 import 'package:sciencenotes/pages/chewie_list_item.dart';
-import 'package:sciencenotes/pages/home_page.dart';
 import 'package:video_player/video_player.dart'; //player de video, porque estamos indo configurar o controlador do player de video
 
 class VideosPage extends StatelessWidget {
+  const VideosPage({Key? key}) : super(key: key);
+
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Science Notes',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: VideosPage(),
-    );
-  }
+  State<VideosPage> createState() => _VideosPage();
 }
 
 class _VideosPage extends StatelessWidget {
