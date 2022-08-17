@@ -1,4 +1,4 @@
-import 'package:chewie_tutorial/chewie_list_item_dart.dart'; //importando o proprio item de item mastigavel
+import 'package:chewie_tutorial/chewie_list_item_dart_page.dart'; //importando o proprio item de item mastigavel
 import 'package:flutter/material.dart';
 import 'package:sciencenotes/pages/chewie_list_item.dart';
 import 'package:sciencenotes/pages/home_page.dart';
